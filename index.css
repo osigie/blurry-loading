@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex; 
+justify-content:center;
+    align-items: center;
+    font-family: "Ubuntu", "sans-serif";
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+.bg{
+    background: url("https://i2-prod.mirror.co.uk/incoming/article24429108.ece/ALTERNATES/s615b/1_FBL-TUR-SUPERL-FENERBAHCE-GALATASARAY.jpg"
+    )
+     no-repeat center center/cover;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0);
+}
+.loading-text{
+    color: #fff;
+    font-size:50px;
+}
